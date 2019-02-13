@@ -27,7 +27,7 @@ Write a function that reads the `befkbhalderstatkode.csv` file from this url: 'h
 
 The function should return the following `STATISTICS` dictionary:
 
-```
+``` python
 STATISTICS = {
       2015: {
           1: {
@@ -65,7 +65,7 @@ STATISTICS = {
   
 To be sure that the code is complete and correct, start with writing a unit test, which iterates over the CSV data and checks that the corresponding data exists in the dictionary. Here is an example
 
-```
+``` python
 import kkdata
 
   f = './befkbhalderstatkode.csv'
