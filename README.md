@@ -8,24 +8,24 @@ The assignment is expected to be published on GitHub, but the actual hand-in sho
 
 ## Part 1: Download script
 
-Write a program download_script.py, which downloads a set of files from the internet. The files to download are given as arguments to your program on the command-line as illustrated in the following:
+Write a program `download_script.py`, which downloads a set of files from the internet. The files to download are given as arguments to your program on the command-line as illustrated in the following:
 
 $ python download_script.py http://www.gutenberg.org/files/2701/2701-0.txt http://www.gutenberg.org/cache/epub/27525/pg27525.txt
-  Downloading file to ./2701-0.txt
-  Downloading file to ./pg27525.txt
+  Downloading file to `./2701-0.txt`
+  Downloading file to `./pg27525.txt`
 Reuse your `webget` module from exercises in 07-Functions and Modules.
 
 ## Part 2: Reading .xlsx files
 
-Write a program that converts the Excel spreadsheet ./iris_data.xlsx into a CSV file with the same data.
+Write a program that converts the Excel spreadsheet `./iris_data.xlsx` into a CSV file with the same data.
 
 Start with writing a unit test against which you implement your solution. You are welcome to use a framework for this, but it can also simply be a function that you call with an expected outcome
 
 ## Part 3: Creating a module with data
 
-Write a function that reads the befkbhalderstatkode.csv file from this url: 'http://data.kk.dk/dataset/76ecf368-bf2d-46a2-bcf8-adaf37662528/resource/9286af17-f74e-46c9-a428-9fb707542189/download/befkbhalderstatkode.csv'
+Write a function that reads the `befkbhalderstatkode.csv` file from this url: 'http://data.kk.dk/dataset/76ecf368-bf2d-46a2-bcf8-adaf37662528/resource/9286af17-f74e-46c9-a428-9fb707542189/download/befkbhalderstatkode.csv'
 
-The function should return the following STATISTICS dictionary:
+The function should return the following `STATISTICS` dictionary:
 
 ```
 STATISTICS = {
