@@ -10,7 +10,7 @@ The assignment is expected to be published on GitHub, but the actual hand-in sho
 
 Write a program `download_script.py`, which downloads a set of files from the internet. The files to download are given as arguments to your program on the command-line as illustrated in the following:
 
-$ python download_script.py http://www.gutenberg.org/files/2701/2701-0.txt http://www.gutenberg.org/cache/epub/27525/pg27525.txt
+`$ python download_script.py http://www.gutenberg.org/files/2701/2701-0.txt http://www.gutenberg.org/cache/epub/27525/pg27525.txt`
   Downloading file to `./2701-0.txt`
   Downloading file to `./pg27525.txt`
 Reuse your `webget` module from exercises in 07-Functions and Modules.
