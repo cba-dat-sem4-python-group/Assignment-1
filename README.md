@@ -1,6 +1,4 @@
-Link to mybinder:
-
-https://mybinder.org/v2/gh/cba-dat-sem4-python-group/Assignment-1/master?filepath=Assignment-1.ipynb
+Link to mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cba-dat-sem4-python-group/Assignment-1/master?filepath=Assignment-1.ipynb)
 
 # Assignment 1: CLI, Openpyxl and modules
 
